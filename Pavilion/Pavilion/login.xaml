@@ -1,0 +1,18 @@
+﻿<Page x:Class="Pavilion.login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pavilion"
+        mc:Ignorable="d"
+        Title="login" Height="450" Width="800" Background="#FFF4D8D8">
+    <Grid Background="#FF3A6F4C">
+
+        <PasswordBox Name="password" Password="yntiRS" HorizontalAlignment="Left" Margin="330,188,0,0" VerticalAlignment="Top" Width="169" Height="25" Background="{x:Null}" BorderBrush="Black" BorderThickness="0,0,0,1"/>
+        <TextBox Text="Elizor@gmai.com" Name="textBox_login" HorizontalAlignment="Left" Height="25" Margin="330,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169" BorderThickness="0,0,0,1" Background="{x:Null}" BorderBrush="Black"/>
+        <Button Content="Войти" HorizontalAlignment="Left" Margin="330,238,0,0" VerticalAlignment="Top" Width="169" Click="Button_Click" Background="#FF96AB99"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="249,137,0,0" VerticalAlignment="Top" Height="36" Width="61" FontSize="14" RenderTransformOrigin="0.944,0.571" FontFamily="Microsoft YaHei"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="249,188,0,0" VerticalAlignment="Top" Height="34" Width="61" FontSize="14" FontFamily="Microsoft YaHei"/>
+
+    </Grid>
+</Page>

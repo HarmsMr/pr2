@@ -1,0 +1,33 @@
+﻿<Page x:Class="Pavilion.InterfacePavilion"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Pavilion"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="InterfacePavilion">
+
+    <Grid Background="#FF3A6F4C">
+        <Rectangle x:Name="NotifyRectangle" HorizontalAlignment="Left" Height="25" Margin="591,237,0,0" VerticalAlignment="Top" Width="25"/>
+        <Label x:Name="Notify" HorizontalAlignment="Left" Height="50" Margin="315,237,0,0" VerticalAlignment="Top" Width="259" Background="{x:Null}"/>
+        <TextBox x:Name="Number_SC" HorizontalAlignment="Left" Height="23" Margin="50,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="214" BorderThickness="0,0,0,1" Background="{x:Null}" BorderBrush="Black"/>
+        <Button Content="Изменить" HorizontalAlignment="Left" Margin="376,341,0,0" VerticalAlignment="Top" Width="129" Height="32" Background="#FF96AB99" Click="Button_Click"/>
+        <Label Content="Номер Тц" HorizontalAlignment="Left" Margin="50,40,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.477,-0.086"/>
+        <Label Content="Статус Павильона" HorizontalAlignment="Left" Margin="50,148,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Status" HorizontalAlignment="Left" Height="23" Margin="50,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="214" BorderThickness="0,0,0,1" Background="{x:Null}" BorderBrush="Black" TextChanged="TextBox_TextChanged" RenderTransformOrigin="0.482,-0.896"/>
+        <Label Content="Номер этажа" HorizontalAlignment="Left" Margin="399,40,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Number_floor" HorizontalAlignment="Left" Height="23" Margin="406,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="99" BorderThickness="0,0,0,1" Background="{x:Null}" BorderBrush="Black" TextChanged="TextBox_TextChanged"/>
+        <Label Content="Номер павильона" HorizontalAlignment="Left" Margin="399,94,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Площадь" HorizontalAlignment="Left" Margin="406,148,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Ratio" HorizontalAlignment="Left" Height="23" Margin="573,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="99" BorderThickness="0,0,0,1" Background="{x:Null}" BorderBrush="Black" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="Number_pavilion" HorizontalAlignment="Left" Height="23" Margin="406,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="99" BorderThickness="0,0,0,1" Background="{x:Null}" BorderBrush="Black" TextChanged="TextBox_TextChanged"/>
+        <Label Content="Коэф. дос. стоим." HorizontalAlignment="Left" Margin="567,40,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Square" HorizontalAlignment="Left" Height="23" Margin="406,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="99" BorderThickness="0,0,0,1" Background="{x:Null}" BorderBrush="Black" TextChanged="TextBox_TextChanged"/>
+        <Label Content="Цена за кв.2" HorizontalAlignment="Left" Margin="567,94,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Price" HorizontalAlignment="Left" Height="23" Margin="573,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="99" BorderThickness="0,0,0,1" Background="{x:Null}" BorderBrush="Black" TextChanged="TextBox_TextChanged"/>
+        <Button x:Name="Add_pavilion" Content="Добавить" HorizontalAlignment="Left" Margin="124,341,0,0" VerticalAlignment="Top" Width="129" Height="32" Background="#FF96AB99" Click="Add_pavilion_Click"/>
+        <Button x:Name="Exit" Content="Перейти в меню" HorizontalAlignment="Left" Margin="614,341,0,0" VerticalAlignment="Top" Width="129" Height="32" Background="#FF96AB99" Click="Exit_Click"/>
+
+    </Grid>
+</Page>
